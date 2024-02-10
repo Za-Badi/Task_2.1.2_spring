@@ -21,12 +21,6 @@ public class UserServiceImp implements UserService {
       userDao.add(user);
    }
 
-//   @Transactional
-//   @Override
-//   public void add(Car car) {
-//      userDao.add(car);
-//   }
-
    @Transactional(readOnly = true)
    @Override
    public List<User> listUsers() {

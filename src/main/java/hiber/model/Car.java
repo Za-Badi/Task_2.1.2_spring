@@ -1,9 +1,5 @@
 package hiber.model;
-
-
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-
 import javax.persistence.*;
 
 @Entity
@@ -22,8 +18,6 @@ public class Car {
 
     @Column(name = "series")
     private int series;
-
-
 
     public Car() {}
 
@@ -55,8 +49,4 @@ public class Car {
     public void setSeries(int series) {
         this.series = series;
     }
-
-
-
-
 }
