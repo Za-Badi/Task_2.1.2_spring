@@ -1,0 +1,9 @@
+/target/classes/hiber/config/AppConfig.class
+/target/classes/hiber/dao/UserDao.class
+/target/classes/hiber/dao/UserDaoImp.class
+/target/classes/hiber/model/Car.class
+/target/classes/hiber/model/User.class
+/target/classes/hiber/service/UserService.class
+/target/classes/hiber/service/UserServiceImp.class
+/target/classes/hiber/MainApp.class
+/target/classes/db.properties
