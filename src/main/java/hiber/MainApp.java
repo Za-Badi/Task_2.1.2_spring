@@ -21,20 +21,20 @@ public class MainApp {
 //      userService.add(new User("User4", "Lastname4", "user4@mail.ru"));
 
 
-      User s = new User("zaha", "badi", "badi.zaha@gmail.com");
-      s.setCar(new Car("Spectra", 2010) );
-      userService.add(s);
-      List<User> users = userService.listUsers();
-      String carModel = "sona";
-      int carSeries = 555;
+//      User s = new User("March", "Mello", "march@gmail.com");
+//      s.setCar(new Car("Avalon", 2010) );
+//      userService.add(s);
+//      List<User> users = userService.listUsers();
+      String carModel = "Avalon";
+      int carSeries = 2010;
       List<User> userswithcars = userService.listUsersWithCarModel(carModel, carSeries);
-      for (User user : users) {
-         System.out.println("Id = "+user.getId());
-         System.out.println("First Name = "+user.getFirstName());
-         System.out.println("Last Name = "+user.getLastName());
-         System.out.println("Email = "+user.getEmail());
-         System.out.println();
-      }
+//      for (User user : users) {
+//         System.out.println("Id = "+user.getId());
+//         System.out.println("First Name = "+user.getFirstName());
+//         System.out.println("Last Name = "+user.getLastName());
+//         System.out.println("Email = "+user.getEmail());
+//         System.out.println();
+//      }
       for (User user : userswithcars) {
          System.out.println("Total number of Users who have "+ carModel+", "+carSeries+" is "+userswithcars.size());
          System.out.println("Id = "+user.getId());
